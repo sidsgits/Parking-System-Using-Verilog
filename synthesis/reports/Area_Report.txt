@@ -1,0 +1,29 @@
+ 
+****************************************
+Report : area
+Design : Car_Parking_System_FSM
+Version: U-2022.12-SP3
+Date   : Sun Dec  8 14:05:12 2024
+****************************************
+
+Library(s) Used:
+
+    saed14rvt_tt0p8v25c (File: /home/Shrivastava012/Downloads/final/ref/saed14rvt_tt0p8v25c.db)
+
+Number of ports:                           43
+Number of nets:                           113
+Number of cells:                           87
+Number of combinational cells:             72
+Number of sequential cells:                14
+Number of macros/black boxes:               0
+Number of buf/inv:                         14
+Number of references:                      19
+
+Combinational area:                 22.868400
+Buf/Inv area:                        2.486400
+Noncombinational area:              14.918401
+Macro/Black Box area:                0.000000
+Net Interconnect area:              25.322694
+
+Total cell area:                    37.786801
+Total area:                         63.109494

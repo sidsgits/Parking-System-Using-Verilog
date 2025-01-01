@@ -1,0 +1,60 @@
+Chronologic VCS simulator copyright 1991-2021
+Contains Synopsys proprietary information.
+Compiler version S-2021.09-SP2-4_Full64; Runtime version S-2021.09-SP2-4_Full64;  Dec  8 14:15 2024
+VCD+ Writer S-2021.09-SP2-4_Full64 Copyright (c) 1991-2021 by Synopsys Inc.
+The file '/home/Shrivastava012/Downloads/final/source/inter.vpd' was opened successfully.
+/syn/generic.sdb'
+/syn/vcs.sdb'
+/syn/vcs.sdb'
+/syn/vcs.sdb'
+/syn/generic.sdb'
+dve> 
+dve> 
+dve> 
+Time: 0 |vehicle_at_entry: 0 | vehicle_at_exit: 0 | correct_password: 0 | State: 000 | Entry Gate: 0 | Exit Gate: 0 | Vehicle Count:   0 | Entry LED: 0 | Exit LED: 0 | 7-Segment Display: 1111110
+rstn released
+Time: 20 |vehicle_at_entry: 1 | vehicle_at_exit: 0 | correct_password: 0 | State: 000 | Entry Gate: 0 | Exit Gate: 0 | Vehicle Count:   0 | Entry LED: 0 | Exit LED: 0 | 7-Segment Display: 0110000
+Vehicle entry request with correct password
+Time: 30 |vehicle_at_entry: 1 | vehicle_at_exit: 0 | correct_password: 1 | State: 001 | Entry Gate: 1 | Exit Gate: 0 | Vehicle Count:   0 | Entry LED: 1 | Exit LED: 0 | 7-Segment Display: 1000000
+Vehicle entry completed
+TEST CASE completed
+Time: 40 |vehicle_at_entry: 0 | vehicle_at_exit: 0 | correct_password: 0 | State: 010 | Entry Gate: 0 | Exit Gate: 0 | Vehicle Count:   1 | Entry LED: 0 | Exit LED: 0 | 7-Segment Display: 1111110
+Time: 50 |vehicle_at_entry: 0 | vehicle_at_exit: 0 | correct_password: 0 | State: 000 | Entry Gate: 0 | Exit Gate: 0 | Vehicle Count:   1 | Entry LED: 0 | Exit LED: 0 | 7-Segment Display: 1111110
+Time: 70 |vehicle_at_entry: 0 | vehicle_at_exit: 1 | correct_password: 0 | State: 000 | Entry Gate: 0 | Exit Gate: 1 | Vehicle Count:   1 | Entry LED: 0 | Exit LED: 1 | 7-Segment Display: 0001101
+Vehicle exit completed
+TEST CASE completed
+Time: 80 |vehicle_at_entry: 0 | vehicle_at_exit: 0 | correct_password: 0 | State: 011 | Entry Gate: 0 | Exit Gate: 0 | Vehicle Count:   0 | Entry LED: 0 | Exit LED: 0 | 7-Segment Display: 1111110
+Time: 90 |vehicle_at_entry: 0 | vehicle_at_exit: 0 | correct_password: 0 | State: 000 | Entry Gate: 0 | Exit Gate: 0 | Vehicle Count:   0 | Entry LED: 0 | Exit LED: 0 | 7-Segment Display: 1111110
+Time: 100 |vehicle_at_entry: 1 | vehicle_at_exit: 0 | correct_password: 0 | State: 000 | Entry Gate: 0 | Exit Gate: 0 | Vehicle Count:   0 | Entry LED: 0 | Exit LED: 0 | 7-Segment Display: 0110000
+Incorrect password, should go to ERROR state
+Time: 110 |vehicle_at_entry: 1 | vehicle_at_exit: 0 | correct_password: 0 | State: 001 | Entry Gate: 0 | Exit Gate: 0 | Vehicle Count:   0 | Entry LED: 0 | Exit LED: 0 | 7-Segment Display: 0000011
+TEST CASE completed
+Time: 120 |vehicle_at_entry: 0 | vehicle_at_exit: 0 | correct_password: 0 | State: 100 | Entry Gate: 0 | Exit Gate: 0 | Vehicle Count:  25 | Entry LED: 0 | Exit LED: 0 | 7-Segment Display: 1111110
+Time: 130 |vehicle_at_entry: 0 | vehicle_at_exit: 0 | correct_password: 0 | State: 000 | Entry Gate: 0 | Exit Gate: 0 | Vehicle Count:  25 | Entry LED: 0 | Exit LED: 0 | 7-Segment Display: 1111110
+Time: 140 |vehicle_at_entry: 0 | vehicle_at_exit: 0 | correct_password: 0 | State: 000 | Entry Gate: 0 | Exit Gate: 0 | Vehicle Count:   0 | Entry LED: 0 | Exit LED: 0 | 7-Segment Display: 1111110
+Time: 150 |vehicle_at_entry: 0 | vehicle_at_exit: 0 | correct_password: 0 | State: 000 | Entry Gate: 0 | Exit Gate: 0 | Vehicle Count: 100 | Entry LED: 0 | Exit LED: 0 | 7-Segment Display: 1111110
+Time: 160 |vehicle_at_entry: 1 | vehicle_at_exit: 0 | correct_password: 0 | State: 000 | Entry Gate: 0 | Exit Gate: 0 | Vehicle Count: 100 | Entry LED: 0 | Exit LED: 0 | 7-Segment Display: 1111110
+TEST CASE completed
+Time: 170 |vehicle_at_entry: 0 | vehicle_at_exit: 0 | correct_password: 0 | State: 000 | Entry Gate: 0 | Exit Gate: 0 | Vehicle Count: 100 | Entry LED: 0 | Exit LED: 0 | 7-Segment Display: 1111110
+Time: 200 |vehicle_at_entry: 0 | vehicle_at_exit: 0 | correct_password: 0 | State: 000 | Entry Gate: 0 | Exit Gate: 0 | Vehicle Count:  98 | Entry LED: 0 | Exit LED: 0 | 7-Segment Display: 1111110
+Time: 210 |vehicle_at_entry: 1 | vehicle_at_exit: 0 | correct_password: 1 | State: 000 | Entry Gate: 0 | Exit Gate: 0 | Vehicle Count:  98 | Entry LED: 0 | Exit LED: 0 | 7-Segment Display: 0110000
+Time: 220 |vehicle_at_entry: 0 | vehicle_at_exit: 0 | correct_password: 1 | State: 001 | Entry Gate: 1 | Exit Gate: 0 | Vehicle Count:  98 | Entry LED: 1 | Exit LED: 0 | 7-Segment Display: 1000000
+Time: 230 |vehicle_at_entry: 0 | vehicle_at_exit: 1 | correct_password: 1 | State: 010 | Entry Gate: 0 | Exit Gate: 0 | Vehicle Count:  99 | Entry LED: 0 | Exit LED: 0 | 7-Segment Display: 1111110
+Time: 240 |vehicle_at_entry: 0 | vehicle_at_exit: 0 | correct_password: 1 | State: 000 | Entry Gate: 0 | Exit Gate: 0 | Vehicle Count:  99 | Entry LED: 0 | Exit LED: 0 | 7-Segment Display: 1111110
+Time: 250 |vehicle_at_entry: 1 | vehicle_at_exit: 0 | correct_password: 1 | State: 000 | Entry Gate: 0 | Exit Gate: 0 | Vehicle Count:  99 | Entry LED: 0 | Exit LED: 0 | 7-Segment Display: 0110000
+Time: 260 |vehicle_at_entry: 0 | vehicle_at_exit: 0 | correct_password: 1 | State: 001 | Entry Gate: 1 | Exit Gate: 0 | Vehicle Count:  99 | Entry LED: 1 | Exit LED: 0 | 7-Segment Display: 1000000
+Time: 270 |vehicle_at_entry: 0 | vehicle_at_exit: 1 | correct_password: 1 | State: 010 | Entry Gate: 0 | Exit Gate: 0 | Vehicle Count: 100 | Entry LED: 0 | Exit LED: 0 | 7-Segment Display: 1111110
+TEST CASE completed
+Time: 280 |vehicle_at_entry: 0 | vehicle_at_exit: 0 | correct_password: 1 | State: 000 | Entry Gate: 0 | Exit Gate: 0 | Vehicle Count: 100 | Entry LED: 0 | Exit LED: 0 | 7-Segment Display: 1111110
+Time: 300 |vehicle_at_entry: 1 | vehicle_at_exit: 1 | correct_password: 1 | State: 000 | Entry Gate: 0 | Exit Gate: 1 | Vehicle Count: 100 | Entry LED: 0 | Exit LED: 1 | 7-Segment Display: 0001101
+TEST CASE completed
+Time: 310 |vehicle_at_entry: 0 | vehicle_at_exit: 0 | correct_password: 0 | State: 011 | Entry Gate: 0 | Exit Gate: 0 | Vehicle Count:  99 | Entry LED: 0 | Exit LED: 0 | 7-Segment Display: 1111110
+Time: 320 |vehicle_at_entry: 0 | vehicle_at_exit: 0 | correct_password: 0 | State: 000 | Entry Gate: 0 | Exit Gate: 0 | Vehicle Count:  99 | Entry LED: 0 | Exit LED: 0 | 7-Segment Display: 1111110
+Time: 350 |vehicle_at_entry: 1 | vehicle_at_exit: 0 | correct_password: 1 | State: 000 | Entry Gate: 0 | Exit Gate: 0 | Vehicle Count:  99 | Entry LED: 0 | Exit LED: 0 | 7-Segment Display: 0110000
+Time: 360 |vehicle_at_entry: 0 | vehicle_at_exit: 0 | correct_password: 1 | State: 001 | Entry Gate: 1 | Exit Gate: 0 | Vehicle Count:  99 | Entry LED: 1 | Exit LED: 0 | 7-Segment Display: 1000000
+Time: 370 |vehicle_at_entry: 1 | vehicle_at_exit: 0 | correct_password: 1 | State: 010 | Entry Gate: 0 | Exit Gate: 0 | Vehicle Count: 100 | Entry LED: 0 | Exit LED: 0 | 7-Segment Display: 1111110
+TEST CASE completed
+Time: 380 |vehicle_at_entry: 0 | vehicle_at_exit: 0 | correct_password: 1 | State: 000 | Entry Gate: 0 | Exit Gate: 0 | Vehicle Count: 100 | Entry LED: 0 | Exit LED: 0 | 7-Segment Display: 1111110
+$finish called from file "tb4.v", line 115.
+$finish at simulation time                  430
+Simulation complete, time is 430.

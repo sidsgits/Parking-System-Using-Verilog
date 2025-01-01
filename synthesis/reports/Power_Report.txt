@@ -1,0 +1,61 @@
+Loading db file '/home/Shrivastava012/Downloads/final/ref/saed14rvt_tt0p8v25c.db'
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : Car_Parking_System_FSM
+Version: U-2022.12-SP3
+Date   : Sun Dec  8 14:05:30 2024
+****************************************
+
+
+Library(s) Used:
+
+    saed14rvt_tt0p8v25c (File: /home/Shrivastava012/Downloads/final/ref/saed14rvt_tt0p8v25c.db)
+
+
+Operating Conditions: tt0p8v25c   Library: saed14rvt_tt0p8v25c
+Wire Load Model Mode: top
+
+Design        Wire Load Model            Library
+------------------------------------------------
+Car_Parking_System_FSM ForQA             saed14rvt_tt0p8v25c
+
+
+Global Operating Voltage = 0.8  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ns
+    Dynamic Power Units = 1uW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+Attributes
+----------
+i - Including register clock pin internal power
+
+
+  Cell Internal Power  =   8.3937 uW   (83%)
+  Net Switching Power  =   1.6774 uW   (17%)
+                         ---------
+Total Dynamic Power    =  10.0711 uW  (100%)
+
+Cell Leakage Power     =  15.5123 nW
+
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
+clock_network      7.6142            0.0000            0.0000            7.6142  (  75.49%)  i
+register           0.4833            0.3796        5.5137e+03            0.8685  (   8.61%)
+sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)
+combinational      0.2963            1.2978        9.9986e+03            1.6040  (  15.90%)
+--------------------------------------------------------------------------------------------------
+Total              8.3937 uW         1.6774 uW     1.5512e+04 pW        10.0867 uW

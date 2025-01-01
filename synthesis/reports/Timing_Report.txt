@@ -1,0 +1,52 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+        -sort_by group
+Design : Car_Parking_System_FSM
+Version: U-2022.12-SP3
+Date   : Sun Dec  8 14:04:31 2024
+****************************************
+
+Operating Conditions: tt0p8v25c   Library: saed14rvt_tt0p8v25c
+Wire Load Model Mode: top
+
+  Startpoint: present_state_reg[1]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: seg_display[2]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  Car_Parking_System_FSM
+                     ForQA                 saed14rvt_tt0p8v25c
+
+  Point                                                Incr       Path
+  -----------------------------------------------------------------------
+  clock clk (rise edge)                                0.00       0.00
+  clock network delay (ideal)                          0.00       0.00
+  present_state_reg[1]/CK (SAEDRVT14_FDPRBQ_V2_1)      0.00       0.00 r
+  present_state_reg[1]/Q (SAEDRVT14_FDPRBQ_V2_1)       0.04       0.04 f
+  U75/X (SAEDRVT14_NR2_ISO_1)                          0.05       0.09 r
+  U64/X (SAEDRVT14_ND2_CDC_0P5)                        0.03       0.12 f
+  U58/X (SAEDRVT14_ND2_CDC_0P5)                        0.03       0.15 r
+  seg_display[2] (out)                                 0.03       0.18 r
+  data arrival time                                               0.18
+
+  clock clk (rise edge)                                2.00       2.00
+  clock network delay (ideal)                          0.00       2.00
+  clock uncertainty                                   -0.30       1.70
+  output external delay                               -1.20       0.50
+  data required time                                              0.50
+  -----------------------------------------------------------------------
+  data required time                                              0.50
+  data arrival time                                              -0.18
+  -----------------------------------------------------------------------
+  slack (MET)                                                     0.32
+
+

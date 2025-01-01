@@ -1,0 +1,121 @@
+0 
+29
++itf+/home/vlsi/SynopsysTools/vcs/S-2021.09-SP2-4/linux64/lib/vcsdp.tab
++memcbk
++vcsd
++vpi
+-Mamsrun=
+-Masflags=
+-Mcc=gcc
+-Mcfl= -pipe -fPIC -O -I/home/vlsi/SynopsysTools/vcs/S-2021.09-SP2-4/include
+-Mcplusplus=g++
+-Mcrt0=
+-Mcrtn=
+-Mcsrc=
+-Mexternalobj=
+-Mldflags= -rdynamic
+-Mobjects= /home/vlsi/SynopsysTools/vcs/S-2021.09-SP2-4/linux64/lib/libvirsim.so /home/vlsi/SynopsysTools/vcs/S-2021.09-SP2-4/linux64/lib/liberrorinf.so /home/vlsi/SynopsysTools/vcs/S-2021.09-SP2-4/linux64/lib/libsnpsmalloc.so /home/vlsi/SynopsysTools/vcs/S-2021.09-SP2-4/linux64/lib/libvfs.so
+-Mout=simv
+-Msaverestoreobj=/home/vlsi/SynopsysTools/vcs/S-2021.09-SP2-4/linux64/lib/vcs_save_restore_new.o
+-Msyslibs=-ldl
+-Mvcsaceobjs=
+-Mxcflags= -pipe -fPIC -I/home/vlsi/SynopsysTools/vcs/S-2021.09-SP2-4/include
+-Mxllcflags=
+-debug_access+all+bc
+-debug_region+cell
+-full64
+-gen_obj
+-picarchive
+/home/vlsi/SynopsysTools/vcs/S-2021.09-SP2-4/linux64/bin/vcs1
+design5.v
+tb4.v
+76
+XMODIFIERS=@im=ibus
+XDG_VTNR=2
+XDG_SESSION_TYPE=x11
+XDG_SESSION_ID=24
+XDG_SESSION_DESKTOP=gnome-classic
+XDG_SEAT=seat0
+XDG_RUNTIME_DIR=/run/user/1007
+XDG_MENU_PREFIX=gnome-
+XDG_DATA_DIRS=/home/Shrivastava012/.local/share/flatpak/exports/share/:/var/lib/flatpak/exports/share/:/usr/local/share/:/usr/share/
+XDG_CURRENT_DESKTOP=GNOME-Classic:GNOME
+XAUTHORITY=/run/gdm/auth-for-Shrivastava012-9hIfcn/database
+WV_HOME=/home/vlsi/SynopsysTools/wv/T-2022.06-2
+WINDOWPATH=1:2
+VTE_VERSION=5204
+VMR_MODE_FLAG=64
+VCS_PATHMAP_PRELOAD_DONE=1
+VCS_MX_HOME_INTERNAL=1
+VCS_MODE_FLAG=64
+VCS_HOME=/home/vlsi/SynopsysTools/vcs/S-2021.09-SP2-4
+VCS_EXEC_DONE=1
+VCS_DEPTH=0
+VCS_ARG_ADDED_FOR_TMP=1
+VCS_ARCH=linux64
+USERNAME=Shrivastava012
+UNAME=/bin/uname
+TOOL_HOME=/home/vlsi/SynopsysTools/vcs/S-2021.09-SP2-4/linux64
+StarRC_HOME=/home/vlsi/SynopsysTools/starrc/U-2022.12-SP3
+SYN_HOME=/home/vlsi/SynopsysTools/syn/U-2022.12-SP3
+SYNOPSYS_LC_ROOT=/home/vlsi/SynopsysTools/lc/T-2022.03-SP3
+STROOT=/home/vlsi/SynopsysTools/sentaurus/T-2022.03-SP1
+SSH_AUTH_SOCK=/run/user/1007/keyring/ssh
+SSH_AGENT_PID=12545
+SNPS_VCS_CLANG_PATH=/home/vlsi/SynopsysTools/vcs/S-2021.09-SP2-4/linux64/clang
+SNPS_INTERNAL_VCS_LINUX_OS=linux
+SESSION_MANAGER=local/unix:@/tmp/.ICE-unix/12400,unix/unix:/tmp/.ICE-unix/12400
+SCRNAME=vcs
+SCRIPT_NAME=vcs
+SAED90_PDK=/home/Shrivastava012/libraries/SAED90_PDK
+SAED32_28_PDK=/home/Shrivastava012/libraries/SAED32_28_PDK
+SAED14nm=/home/Shrivastava012/libraries/SAED14nm
+RAP_HOME=/home/vlsi/SynopsysTools/raphael/U-2022.12
+RAPFX_HOME=/home/vlsi/SynopsysTools/raphael_fx/U-2022.12
+QUANTUMATK_HOME=/home/vlsi/SynopsysTools/QuantumATK-T-2022.03-SP1
+QT_IM_MODULE=ibus
+QCAP_HOME=/home/vlsi/SynopsysTools/quickcap/T-2022.03-SP3/linux64
+PRIMEWAVE_HOME=/home/vlsi/SynopsysTools/primewave/U-2023.03-3-T-20230515
+PRIMETIME_HOME=/home/vlsi/SynopsysTools/prime/T-2022.03-SP3
+PRIMESIM_HOME=/home/vlsi/SynopsysTools/primesim/U-2023.03
+PCMROOT=/home/vlsi/SynopsysTools/pcm_studio/S-2021.12/pcm_studio/S-2021.12/PCMStudio-2021.12
+OVA_UUM=0
+OS_LDFLAGS=
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+LC_ALL=C
+IMSETTINGS_MODULE=none
+IMSETTINGS_INTEGRATE_DESKTOP=yes
+ICV_HOME=/home/vlsi/SynopsysTools/icvalidator/U-2022.12-SP3
+ICVWB_HOME=/home/vlsi/SynopsysTools/icv_workbench/U-2022.12-SP1
+ICC_HOME=/home/vlsi/SynopsysTools/icc/S-2021.06-SP5-4
+ICC2_HOME=/home/vlsi/SynopsysTools/icc2/U-2022.12-SP6
+HSPICE_HOME=/home/vlsi/SynopsysTools/hspice/U-2023.03/hspice
+HISTCONTROL=ignoredups
+GNOME_TERMINAL_SERVICE=:1.133
+GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/eb01e751_c1c1_4649_9ee4_323d39140cd6
+GNOME_SHELL_SESSION_MODE=classic
+GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+GDM_LANG=en_US.UTF-8
+GDMSESSION=gnome-classic
+FORMALITY_HOME=/home/vlsi/SynopsysTools/fm/U-2022.12-SP3
+FINESIM_HOME=/home/vlsi/SynopsysTools/finesim/U-2023.03
+DESKTOP_SESSION=gnome-classic
+DBUS_STARTER_BUS_TYPE=session
+DBUS_STARTER_ADDRESS=unix:abstract=/tmp/dbus-CPF6fYEYWA,guid=60c5ebb053328b1ddf623c0067555192
+DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-CPF6fYEYWA,guid=60c5ebb053328b1ddf623c0067555192
+CUSTOMINFRA_HOME=/home/vlsi/SynopsysTools/custominfrastructure/U-2023.03-3
+CUSTOMCOMP_HOME=/home/vlsi/SynopsysTools/customcompiler/U-2023.03-5
+COLORTERM=truecolor
+0
+0
+3
+1733647457 tb4.v
+1733646441 design5.v
+1722511526 /home/vlsi/SynopsysTools/vcs/S-2021.09-SP2-4/linux64/lib/vcsdp.tab
+4
+1722511466 /home/vlsi/SynopsysTools/vcs/S-2021.09-SP2-4/linux64/lib/libvirsim.so
+1722511467 /home/vlsi/SynopsysTools/vcs/S-2021.09-SP2-4/linux64/lib/liberrorinf.so
+1722511546 /home/vlsi/SynopsysTools/vcs/S-2021.09-SP2-4/linux64/lib/libsnpsmalloc.so
+1722511474 /home/vlsi/SynopsysTools/vcs/S-2021.09-SP2-4/linux64/lib/libvfs.so
+1733647465 simv.daidir
+-1 partitionlib
