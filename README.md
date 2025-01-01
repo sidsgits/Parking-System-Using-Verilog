@@ -2,6 +2,9 @@
 
 This repository contains a Verilog-based implementation of a finite state machine (FSM) for a car parking system.
 
+###About the Project
+This project was the first designed and implemented during my MTech in VLSI Design and Embedded Systems at Mahindra University. It represents a foundational effort to apply concepts of digital design and FSM modeling to a real-world application.
+
 ## Description
 The parking system manages vehicle entry and exit based on user input (password) and sensor data. The FSM controls:
 - Vehicle Entry Control
