@@ -26,3 +26,8 @@ Contributions are welcome! Please fork the repository and create a pull request 
 ## License
 The project is licensed under the [LICENSE] file.
 
+## Contributors
+
+- **Siddhant Shrivastava** - Initial Design, Implementation, and Testing
+- **Prasanthi Velpula** - Co-Design and Validation
+
